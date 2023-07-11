@@ -1,0 +1,263 @@
+/*==========  Desktop First  ========== */
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .main_banner {
+    padding: 170px 0 220px; } }
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .main_banner .mb_info > h1 {
+    font-size: 45px; }
+
+  .main_banner .mb_info > .descr {
+    margin-bottom: 20px; }
+
+  .main_banner {
+    padding: 100px 0 160px; }
+
+  section {
+    padding: 80px 0; }
+
+  #reviews {
+    padding: 170px 0; }
+
+  .pf_info {
+    margin-bottom: 120px; }
+
+  #footer .row_flex .col_footer_1,
+  #footer .row_flex .col_footer_3 {
+    width: 48%;
+    order: 2; }
+
+  #footer .row_flex .col_footer_2 {
+    width: 100%;
+    margin-bottom: 30px;
+    order: 1; } }
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .inner_header .right_side_header > .btn_simple {
+    display: none; }
+
+  .inner_header .right_side_header .mnu_top > li a {
+    padding: 5px 30px 5px 0; }
+
+  .inner_header .right_side_header .mnu_top > li.has_sub_menu::after {
+    right: 15px; }
+
+  .main_banner {
+    padding: 50px 0 170px; }
+
+  > .img_responsive {
+    margin: 0 auto;
+    max-width: 80%; }
+
+  .main_banner .mb_info > h1 {
+    font-size: 40px; }
+
+  section {
+    padding: 60px 0; }
+
+  #advantages .row_adv {
+    justify-content: center; }
+
+  #advantages .description {
+    font-size: 14px; }
+
+  #advantages .row_adv .item_adv > .heading {
+    margin: 10px 0;
+    font-size: 22px;
+    text-align: center; }
+
+  section.information .img_responsive {
+    display: none; }
+
+  section.information .right_info {
+    padding: 0;
+    text-align: center; }
+    section.information .right_info .notif {
+      margin: 0 auto; }
+
+  section.information .right_info > h3,
+  #pre_footer .pf_info > h4,
+  #advantages h2 {
+    font-size: 34px; }
+
+  #reviews .item_rev > .quotes {
+    font-size: 16px; }
+
+  #footer {
+    padding: 30px 0; }
+    #footer .copyright {
+      margin-top: 30px; } }
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  #header {
+    position: relative;
+    padding-top: 14px; }
+
+  #header .inner_header .right_side_header .mnu_top {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 70px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    padding: 10px 0;
+    z-index: 11; }
+    #header .inner_header .right_side_header .mnu_top > li {
+      display: block; }
+      #header .inner_header .right_side_header .mnu_top > li > a {
+        padding: 5px 15px; }
+      #header .inner_header .right_side_header .mnu_top > li > .sub_menu {
+        display: block;
+        position: relative;
+        top: auto;
+        box-shadow: none;
+        border-radius: none;
+        animation: none;
+        padding-left: 15px; }
+  #header .inner_header .right_side_header .mnu_top > li.has_sub_menu .sub_arrow {
+    display: none; }
+  #header .inner_header .right_side_header .hamburger {
+    display: block; }
+  #header .inner_header .right_side_header .visible {
+    display: block; }
+
+  #top_banner {
+    background: none;
+    background-color: #f5faff; }
+    #top_banner .main_banner {
+      padding: 20px 0 40px; }
+
+  .notif {
+    margin: 0 auto; }
+
+  .main_banner .mb_info {
+    text-align: center; }
+    .main_banner .mb_info > h1 {
+      font-size: 30px; }
+    .main_banner .mb_info > .descr {
+      font-size: 14px; }
+    .main_banner .mb_info > .btns {
+      flex-wrap: wrap; }
+      .main_banner .mb_info > .btns > a {
+        display: block;
+        width: 100%; }
+      .main_banner .mb_info > .btns > .btn {
+        margin: 0; }
+      .main_banner .mb_info > .btns > .btn_white {
+        margin-top: 10px; }
+
+  #advantages .notif {
+    font-size: 14px; }
+
+  section {
+    padding: 40px 0; }
+
+  #advantages .heading_main {
+    margin: 25px 0; }
+
+  section.information .right_info > h3, #pre_footer .pf_info > h4, #advantages h2 {
+    font-size: 24px; }
+
+  #advantages .description {
+    font-size: 14px; }
+
+  #advantages .row_adv > div {
+    width: 100%;
+    margin-bottom: 30px; }
+    #advantages .row_adv > div:last-child {
+      margin-bottom: 0; }
+
+  #reviews {
+    padding: 40px 0;
+    background: none;
+    background-color: #f5faff; }
+
+  #reviews .item_rev > img {
+    width: 60px;
+    height: 60px; }
+
+  #reviews .item_rev > .quotes {
+    margin: 0 auto 20px;
+    height: 80px; }
+
+  #reviews .item_rev > .name, #reviews .item_rev > .position {
+    font-size: 14px; }
+
+  #reviews .item_rev > .name {
+    margin-top: 5px; }
+
+  #reviews .line {
+    margin: 30px 0; }
+
+  #reviews .nav_rev {
+    justify-content: space-around; }
+
+  #reviews .nav_rev > div {
+    width: 33%;
+    margin: 10px; }
+
+  #pre_footer .pf_info > img {
+    margin: 32px auto; }
+
+  #pre_footer .pf_info .pf_images li > img {
+    width: 80%; }
+
+  #pre_footer .form_wrapper > form > input {
+    padding: 10px; }
+    #pre_footer .form_wrapper > form > input::placeholder {
+      font-size: 14px; }
+
+  .btn_form {
+    font-size: 14px; }
+
+  #pre_footer .form_wrapper > form > .or {
+    margin: 15px auto 10px; }
+
+  #pre_footer .form_wrapper > form > .footer_form > .line {
+    margin: 10px 0; }
+
+  .mnu_footer {
+    width: 45%;
+    text-align: center;
+    margin-bottom: 10px; }
+
+  #footer b.heading {
+    margin-bottom: 0px; }
+
+  #footer .mnu_footer_wrapper > .mnu_footer > ul > li > a {
+    padding: 4px 0; }
+
+  #footer .mnu_footer_wrapper {
+    flex-direction: column;
+    align-items: center; }
+
+  #footer .mnu_footer_wrapper > .mnu_footer {
+    margin-bottom: 20px; }
+    #footer .mnu_footer_wrapper > .mnu_footer .mnu_footer_list {
+      display: none;
+      animation: opac 0.4s; }
+    #footer .mnu_footer_wrapper > .mnu_footer .mnu_footer_list.visible {
+      display: block; } }
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /* */ }
+/*==========  Mobile First  ========== */
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  /* */ }
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /* */ }
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /* */ }
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /* */ }
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /* */ }
+
+/*# sourceMappingURL=adaptive.css.map */
