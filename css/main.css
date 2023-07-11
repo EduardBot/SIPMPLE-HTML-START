@@ -493,6 +493,18 @@ section.information .right_info {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 0 15px; }
+    #footer .mnu_footer_wrapper > .mnu_footer .heading_wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 8px; }
+      #footer .mnu_footer_wrapper > .mnu_footer .heading_wrapper .sub_arrow {
+        display: none;
+        width: 10px;
+        height: 10px;
+        transition: all 0.2s ease;
+        stroke: #020202;
+        margin-left: 5px; }
     #footer .mnu_footer_wrapper > .mnu_footer .mnu_footer_list {
       list-style-type: none; }
       #footer .mnu_footer_wrapper > .mnu_footer .mnu_footer_list > li {
@@ -509,7 +521,6 @@ section.information .right_info {
   #footer b.heading {
     display: block;
     color: #160637;
-    margin-bottom: 8px;
     font-size: 16px;
     font-weight: 900; }
   #footer .newsletter > b.heading {

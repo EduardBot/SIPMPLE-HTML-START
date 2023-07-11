@@ -514,6 +514,18 @@ section.information
 		justify-content: space-between
 		padding: 0 15px
 		>.mnu_footer
+			.heading_wrapper
+				display: flex
+				justify-content: center
+				align-items: center
+				margin-bottom: 8px
+				.sub_arrow
+					display: none
+					width: 10px
+					height: 10px
+					transition: all .2s ease
+					stroke: #020202
+					margin-left: 5px
 			.mnu_footer_list
 				list-style-type: none
 				>li
@@ -530,7 +542,6 @@ section.information
 	b.heading
 		display: block
 		color: $text_dark
-		margin-bottom: 8px
 		font-size: 16px
 		font-weight: 900
 	.newsletter
