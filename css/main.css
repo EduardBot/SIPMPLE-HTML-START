@@ -319,7 +319,7 @@ section.information .right_info {
 
 #reviews {
   padding: 300px 0;
-  background: url("/img/reviews/bg.svg") no-repeat center/cover; }
+  background: url("../img/reviews/bg.svg") no-repeat center/cover; }
   #reviews .item_rev {
     text-align: center;
     animation: opac 0.6s; }
