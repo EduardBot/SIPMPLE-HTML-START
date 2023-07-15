@@ -243,9 +243,28 @@
 
   #footer .mnu_footer_wrapper > .mnu_footer .heading_wrapper {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    position: relative; }
+    #footer .mnu_footer_wrapper > .mnu_footer .heading_wrapper::before {
+      transform: rotate(-40deg);
+      right: 5px;
+      content: "";
+      width: 8px;
+      height: 1px;
+      background-color: #000;
+      position: absolute;
+      top: 12px; }
+    #footer .mnu_footer_wrapper > .mnu_footer .heading_wrapper::after {
+      content: "";
+      width: 8px;
+      height: 1px;
+      background-color: #000;
+      position: absolute;
+      top: 12px;
+      transform: rotate(40deg);
+      right: 12px; }
     #footer .mnu_footer_wrapper > .mnu_footer .heading_wrapper > .sub_arrow {
-      display: block; } }
+      display: none; } }
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
   /* */ }
