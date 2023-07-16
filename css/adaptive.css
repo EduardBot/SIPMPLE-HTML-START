@@ -247,24 +247,22 @@
     position: relative; }
     #footer .mnu_footer_wrapper > .mnu_footer .heading_wrapper::before {
       transform: rotate(-40deg);
-      right: 5px;
-      content: "";
-      width: 8px;
-      height: 1px;
-      background-color: #000;
-      position: absolute;
-      top: 12px; }
-    #footer .mnu_footer_wrapper > .mnu_footer .heading_wrapper::after {
       content: "";
       width: 8px;
       height: 1px;
       background-color: #000;
       position: absolute;
       top: 12px;
+      right: 6px; }
+    #footer .mnu_footer_wrapper > .mnu_footer .heading_wrapper::after {
+      content: "";
+      width: 8px;
+      height: 1px;
+      background-color: #000;
       transform: rotate(40deg);
-      right: 12px; }
-    #footer .mnu_footer_wrapper > .mnu_footer .heading_wrapper > .sub_arrow {
-      display: none; } }
+      position: absolute;
+      top: 12px;
+      right: 12px; } }
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
   /* */ }

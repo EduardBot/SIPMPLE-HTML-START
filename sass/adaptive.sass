@@ -204,26 +204,24 @@
 		position: relative
 		&::before
 			transform: rotate(-40deg)
-			right: 5px
-
 			content: ""
 			width: 8px
 			height: 1px
 			background-color: #000
+
 			position: absolute
 			top: 12px
+			right: 6px
 		&::after
 			content: ""
 			width: 8px
 			height: 1px
 			background-color: #000
+			transform: rotate(40deg)
+
 			position: absolute
 			top: 12px
-
-			transform: rotate(40deg)
 			right: 12px
-		>.sub_arrow
-			display: none
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px)
 	/**/

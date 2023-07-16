@@ -497,13 +497,6 @@ section.information .right_info {
       display: flex;
       align-items: center;
       margin-bottom: 8px; }
-      #footer .mnu_footer_wrapper > .mnu_footer .heading_wrapper .sub_arrow {
-        display: none;
-        width: 10px;
-        height: 10px;
-        transition: all 0.2s ease;
-        stroke: #020202;
-        margin-left: 7px; }
     #footer .mnu_footer_wrapper > .mnu_footer .mnu_footer_list {
       list-style-type: none; }
       #footer .mnu_footer_wrapper > .mnu_footer .mnu_footer_list > li {
