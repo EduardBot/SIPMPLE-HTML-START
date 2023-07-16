@@ -46,7 +46,7 @@
   .main_banner {
     padding: 50px 0 170px; }
 
-  > .img_responsive {
+  .img_responsive {
     margin: 0 auto;
     max-width: 80%; }
 
